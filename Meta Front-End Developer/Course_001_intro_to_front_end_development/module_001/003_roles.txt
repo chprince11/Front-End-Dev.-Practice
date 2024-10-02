@@ -1,0 +1,10 @@
+- Web developer roles: Front-end, Back-end, and Full-stack
+
+- Front-end developer: who work on all parts of the websites or web app that users will interact with.
+- This can be anything from the style, colors, buttons, menus or user interactions as they click, swipe and interact with the site.
+- Skills: HTML, CSS, and JavaScript ( Powerhouse of the front-end technology ), versatility, libraries, framework, example React
+
+- Back-end developer: who works on the parts of a website or web app that the user don't see. These activities occur behind the scenes particulary on the webserver, Database, or in constructing the architecture.
+- Skills: Back-end programming languages, Database management systems, APIs, Web servers.
+
+- Full stack developer: Knowledge in all areas of the web development project cycle.
