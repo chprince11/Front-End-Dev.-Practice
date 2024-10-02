@@ -1,0 +1,9 @@
+(1) Learn how to code interactive web pages using HTML, CSS, and JavaScript.
+(2) Learn Bootstrap framework
+(3) Learn about the React, site using React are fast, scalable, secure, and allow rich user experience.
+(4) In final project, building portfolio website.
+(5) Using git and GitHub for the Version Control
+(6) Learn how to research a user's needs, create wire frames
+using popular industry tools like Figma and design interactivity. 
+(7) In final course, preparaing for the coding interview.
+(8) Refine a Resume

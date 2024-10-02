@@ -1,0 +1,7 @@
+- We can do online shopping, chatting, interact with each other through different online platform.
+- All can be possible with a combination of Internet infrastructure, Technologies, and the skilled professional who build the app that we use.
+- How does the web work ? ; includes the web pages, web servers, and web browsers. what they all are and their roles ?
+- Hands-on experience on HTML, CSS, and JavaScript
+- tools, Browser developer tools and code using industry standard software, known as IDE or(Integrated Development Environment)
+- Module2: HTML5 and CSS, text, images, Multimedia, How to code for web Accessibility.
+- Module3: how to use frameworks and libraries. The module is focus on responsive design. Bootstrap implementation, User Interface, UI components, React to build UI based on UI components. What is Static and Dynamic content ? Benefits of usng single-page applications.
