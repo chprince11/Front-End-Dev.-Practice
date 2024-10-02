@@ -70,7 +70,74 @@ console.log(String(age1) + age2); //
 // String
 
 const myFullName = "Prince Chauhan";
-// const myFullName2 = 'Prince Chauhan'; 
+// const myFullName2 = 'Prince Chauhan';
 // This is valid
-// const myFullName3 = 'Prince Chauhan"; 
-// ERROR can't use single and double quatation in same String
+// const myFullName3 = 'Prince Chauhan";
+// ERROR can't use single and double quatation in same StrinG
+
+// Number
+
+const myMotherAge = 20;
+// const myMotherAge = 20,000;
+// this will throws an syntax error because cannot use commas in between
+
+// Boolean
+
+const canDrive = true;
+if (canDrive) {
+  console.log("Can Drive");
+} else {
+  console.log("Can't Drive");
+}
+
+// Arrays
+// they are indexed
+// Arrays in JS is basically a list, seperated by the commas, can put any data type inside, even the object.
+const myFirstArray = [
+  10,
+  "Prince",
+  true,
+  0.12,
+  { property: "the value" },
+  [2, 4],
+];
+
+console.log(myFirstArray);
+console.log(myFirstArray[0]);
+console.log(myFirstArray[1]);
+console.log(myFirstArray[2]);
+console.log(myFirstArray[3]);
+console.log(myFirstArray[4]);
+console.log(myFirstArray[5][1]);
+console.log(myFirstArray[6]); // Output is undefined, not an error in JS
+
+// Objects
+// Everything in JS is an Object
+
+const objectVariables = { prop1: 20, prop2: true };
+const valueOne = objectVariables.prop1;
+console.log(valueOne);
+
+// Nested objects
+
+const nestedObjects = {
+  layer1: {
+    layer2: {
+      layer3: {
+        targetValue: 20,
+      },
+    },
+  },
+};
+
+console.log(nestedObjects.layer1.layer2.layer3.targetValue);
+
+console.log(nestedObjects["layer1"]["layer2"]["layer3"]);
+
+// Functions
+
+const myFirstFunction = function () {
+  return 40;
+};
+
+console.log(myFirstFunction());
