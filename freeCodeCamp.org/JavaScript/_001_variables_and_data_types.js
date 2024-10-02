@@ -141,3 +141,4 @@ const myFirstFunction = function () {
 };
 
 console.log(myFirstFunction());
+
