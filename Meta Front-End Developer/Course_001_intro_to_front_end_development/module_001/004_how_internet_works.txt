@@ -1,0 +1,7 @@
+- Two device connect and communicate via a wired or wireless connection, forming something called a network.
+
+- Network switch is allowed to connect multiple devices and allows them to communicate with each other.
+- When multiple network switches are connected together called Interconnected network. ( The Internet ).
+
+- When we use websites or video streaming services on the Internet, these are provided by computers called servers. Our devices are called clients. This is known as the client-server model.
+
