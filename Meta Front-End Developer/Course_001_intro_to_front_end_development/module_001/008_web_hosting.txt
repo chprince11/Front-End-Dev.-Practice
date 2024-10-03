@@ -1,0 +1,27 @@
+- Developers can launch websites to the Internet using something known as web hosting.
+
+- Web hosting is a service where you place your website and files on the hosting companies web server. 
+
+- More stable and secure.
+
+- These are the types of web hosting; shared hosting, virtual private hosting, dedicated hosting, and Cloud hosting.
+
+(1) Shared hosting: The cheapest web hosting, in this we also share the service processing power, memory, and bandwidth with other websites that might slow your performance. 
+- Good for a small website with a small number of visitors. 
+- Many developers also use this as a low-cost sandbox environment to practice deploying or hosting their personal websites. 
+- Some companies offer free shared hosting, but with limitations and often have advertisements embedded in the webpages.
+
+(2) VPS hosting (Virtual Private Surface): It is a dedicated CPU, memory, and bandwidth rersources. 
+- It will be running on a hardware server with other VPS instances but as the resources are fixed per VPS instance, your website is unlikely to be impacted by the performance of other VPS instances. - A VPS instance will be more expensive than shared hosting. 
+
+(3) Dedicated hosting:  This will be a hardware server that is dedicated to you only.
+- All hardware, CPU, memory, and bandwidth resources are yours to use.
+- Generally, this option is more expensive than a VPS hosting.
+
+(4) Cloud hosting: The website is run in something called a Cloud environment, which spans across multiple physical and virtual servers.
+- If a physical or virtual server fails, your website will run on a different server and stay online.
+- The main advantage of Cloud hosting is that you can use as many resources as you need without hardware limitations.
+- Pay based on resource use.
+- For example, if you transfer a file from the Cloud to a web browser, you'll pay for the bandwidth used for that transfer at a fractional cent cost per megabyte. While this can quickly become more expensive, is allows websites and web applications to scale their costs as popularity grows.
+
+- This is how many of the major web applications operate.
