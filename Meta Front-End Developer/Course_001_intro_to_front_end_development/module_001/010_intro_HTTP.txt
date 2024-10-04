@@ -1,0 +1,74 @@
+- HTTPS is the secure verison of the HTTP.
+
+- HTTP is core operational protocol of the world wide web.
+
+- It is what enables your web browser to communicate with a web server that hosts a website.
+
+- HTTP is the communication protocol you use whenever you browse the web.
+
+- HTTP stands for Hypertext Transfer Protocol.
+
+- It is a protocol used for transferring web resources such as HTML documents(Web pages), images, styles, and other files.
+
+- HTTP ia a request response based protocol.
+
+- Makeup of HTTP request:
+- It contains a method, path, verison, headers. 
+
+- Methods: A HTTP method describes the type of action the client must performed. The primary or the most commonly used HTTP methods are GET (Retrieve info. from the given server), POST (send data to the server), PUT (updates whatever
+currently exists on the web server with something else), DELETE (removes the resource).
+
+- Path: It is the representation of where the resourse is stored on the web server. 
+
+- Version: There are multiple versions of the HTTP protocol. Most commonly used are 1.1 and 2.0. 
+
+- Headers contain additional information about the request and the client that is making the request. 
+
+- Makeup of HTTP response:
+HTTP/1.1 200 OK
+Date: Sat, 09 Oct 2010 14:28:02 GMT 
+Server: Apache
+Last-modified: 
+ETag: ""
+Accept-Ranges: bytes
+Content-Length: 29769
+Content-Type: text/hmtl 
+
+- In the Header, it contian a message body consisting of the response Contents such as HTML document, the image file and so forth. 
+
+- HTTP status code: It contained within the header, indicates if the HTTP request successfully completed. The code values range between 100 - 599. Status messgae is text representation of the status code (OK).
+
+- There are 5 groups of status code:
+
+(1) Informational ( 100 - 199 ) 
+- Provisional responses sent by the server. These are interim before the actual response.
+- ex: 100 CONTINUE : Which indicate that the web client should continue to request or ignore the response, if the request is already finished. 
+
+(2) Successful    ( 200 - 299 )
+- The request was successfully processed by the web server, with the most common success response being 200 OK.
+- The meaning of OK, depends on the HTTP method.
+- If the method is GET, it means that the resource is found and is
+included in the body of the HTTP response.
+- If it's POST, it means that the resource was successfully transmitted to the web server and if it's PUT, the resource was successfully
+transmitted to the web server.
+- Finally, if the method is DELETE, it means the resource was deleted. 
+
+(3) Redirection   ( 300 - 399 )
+- It indicate to the web client that the requested resource has been moved to a different path.
+- The most common response codes used are 301 moved permanently and 302 found.
+- The difference between the redirection messages 301 and 302 is that
+302 indicates a temporary redirection. The resource has been temporarily moved.
+- When web browsers receive these responses, they will automatically submit the request for the resource at the new path. 
+
+(4) Client error  ( 400 - 499 )
+- Client error responses indicate that the requests contained bad syntax or content and cannot be processed by the web server.
+- 400 is used when the web browser or client submitted bad data to the web server.
+- 401 is used to indicate that the user must log into an account before the request can be processed.
+- 403 is used to indicate the request was valid, but that the web server is refusing to process it. This is often used to indicate that a user does not have
+sufficient permissions to execute an action in a web application.
+- 404 is used to indicate that the request resource was not found on the web server. 
+
+(5) Server error  ( 500 - 599 )
+- Server error responses indicate that a failure occurred on the web server while trying to process the request.
+- The most common code used is 500 internal server error, which is a generic error status indicating that the server failed to process the request. 
+
