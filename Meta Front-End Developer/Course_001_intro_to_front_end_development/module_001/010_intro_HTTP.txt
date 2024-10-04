@@ -72,3 +72,11 @@ sufficient permissions to execute an action in a web application.
 - Server error responses indicate that a failure occurred on the web server while trying to process the request.
 - The most common code used is 500 internal server error, which is a generic error status indicating that the server failed to process the request. 
 
+- HTTPS (Hypertext Transfer Protocol Secure)
+- By using HTTPS, we send the information securely.
+-  It is used for secure communication between two computers so that nobody else can see the information being sent and received.
+- It does this by using something called encryption.
+- The big difference is that before the content is sent,
+it is turned into a secret code. Only the other computer can turn the secret code back into its original content. 
+- 
+
