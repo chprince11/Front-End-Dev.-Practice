@@ -1,0 +1,32 @@
+- Sending the data across the internet is impossible without the IP addressess or Internet Protocol addressess. ex: 216.168.173.3
+
+- IP addressess and Data Transmission
+
+- IP Version 4 and IP Version 6 are 2 standards of the Internet protocol.
+
+- Every computer on a network is assigned an IP address.
+
+- In protocol version 4 an IP address contains four octet. It's separated by periods or dots. For example 192.0.2.235. 
+
+- In protocol version 6. An IP address contains eight groups of hexadecimal digits separated by a colon. For example : 4527:0a00:1567:0200:ff00:0042:8329. 
+
+- When you send data across a network, you send the data as a series of messages called IP packets. Also known as data grams. 
+
+- At a high level IP packets contain a header and a payload or the data. They include the destination IP address and source IP address.
+
+- Issues: 
+(1) IP packets arrive out of order 
+(2) Become damaged or currupted
+(3) Dropped or lost during the transit
+
+- To solve these problems:
+
+(1) TCP (Transmission Control Protocol): 
+- TCP can solve all three of the previously mentioned issues but at the cost of a small delay when sending the data. 
+- This protocol is used for sending the data that must arrive correctly and in order such as a text or image files.
+
+(2) UDP (User Datagram Protocol): 
+-  UDP solves the corrupt packet issue but packets can still arrive out of order or not arrive at all.
+- This protocol is used for sending data that can tolerate some data loss such as voice calls or live video streaming. 
+
+- These protocols can help to make sure that data arrives in order does not become corrupted or lost or dropped during transit. 
