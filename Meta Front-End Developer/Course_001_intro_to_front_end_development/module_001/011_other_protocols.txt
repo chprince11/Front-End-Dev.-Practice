@@ -1,0 +1,25 @@
+- Hypertext Transfer Protocols (HTTP) are used on top of Transmission Control Protocol (TCP) to transfer webpages and other content from websites.
+
+- Dynamic host configuration Protocol (DHCP)
+- When your computer connects to a network, the DHCP, is used to assign your computer an IP address.
+-  DHCP server is the server keeps track of computers on the network and their IP addresses. 
+- It will assign your computer an IP address and respond over the protocol to let it know which IP address to use. 
+- Once your computer has an IP address, it can communicate with other computers on the network.
+
+- DNS (Domain name system)
+- DNS translates domain names to IP addresses so browsers can load Internet resources.
+
+- (SMTP) Simple Mail Transfer Protocol
+- SMTP and IMAP both are used for email communication.
+- when you send an email, you use SMTP 
+
+- (IMAP) Internet Message Access Protocol is more commonly used
+- when you read or manage your inbox, you use IMAP.
+
+- POP
+
+- FTP 
+
+- SSH 
+
+- SFTP 
