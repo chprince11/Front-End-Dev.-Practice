@@ -1,0 +1,19 @@
+- These might be open source
+
+- Libraries
+- Libraries are reusebale pieces of code that can be used by the application.
+- They are purpose-built to provide a specific functionality.
+- Time saving
+- A developers simply uses the library to access the functionality they require, as a result they can have more time to continue focusing on the development of their application.
+- Can be replace with another Libraries
+- Compatibility
+
+- Frameworks
+- Frameworks act as a structure where the developer provides their own code that the framework interacts with.
+- For instance with the e-commerce website example, a framework would handle receiving HTTP requests.  
+- The developer would implement code that processes the request and returns a response from which the framework would send a response over HTTP. 
+- Time saving, structure, Best Pratice
+- Structure Constraints
+- Compatibility
+
+-- Faster development, fewer errors, and Time-saving --
